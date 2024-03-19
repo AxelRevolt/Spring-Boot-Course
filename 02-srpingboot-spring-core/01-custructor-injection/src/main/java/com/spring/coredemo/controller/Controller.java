@@ -9,7 +9,7 @@ import com.spring.coredemo.interfacetest.Coach;
 @RestController
 public class Controller {
 	
-	private Coach myCoach;
+	private Coach myCoach;// = new Test(); the interface can inizializate class that implements it
 	
 	@Autowired
 	public Controller(Coach myCoach) {
