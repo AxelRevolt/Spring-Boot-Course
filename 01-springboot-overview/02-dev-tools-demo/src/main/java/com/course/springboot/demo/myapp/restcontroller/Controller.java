@@ -11,9 +11,10 @@ public class Controller {
 		return "ciao";
 	}
 	
-	@GetMapping("/0")
-	public String test2() {
-		return "ciao2";
-	}
+	// on strat appliaction de-comment this second end point save class and see hot reload application
+//	@GetMapping("/0")
+//	public String test2() {
+//		return "ciao2";
+//	}
 
 }
