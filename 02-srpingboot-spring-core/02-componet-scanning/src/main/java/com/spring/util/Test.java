@@ -1,8 +1,6 @@
-package com.spring.coredemo.test;
+package com.spring.util;
 
 import org.springframework.stereotype.Component;
-
-import com.spring.coredemo.interfacetest.Coach;
 
 @Component // as a spring bean avaible for dependency injection
 public class Test implements Coach{
