@@ -9,5 +9,9 @@ public class TennisCoach implements Coach{
 	public String getDailyWorkout() {
 		return "tennisCoach test";
 	}
+	
+	public TennisCoach() {
+		System.out.println("in custractor : " + getClass().getSimpleName());
+	}
 
 }
