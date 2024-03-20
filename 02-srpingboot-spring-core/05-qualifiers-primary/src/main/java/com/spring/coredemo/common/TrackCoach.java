@@ -9,5 +9,9 @@ public class TrackCoach implements Coach{
 	public String getDailyWorkout() {
 		return "trackCoach test";
 	}
+	
+	public TrackCoach() {
+		System.out.println("in custoctor :" + getClass().getSimpleName());
+	}
 
 }

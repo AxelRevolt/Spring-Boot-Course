@@ -9,5 +9,9 @@ public class BaseballCoach implements Coach{
 	public String getDailyWorkout() {
 		return "baseBall test";
 	}
+	
+	public BaseballCoach() {
+		System.out.println("in custoctor :" + getClass().getSimpleName());
+	}
 
 }

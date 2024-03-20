@@ -13,7 +13,7 @@ public class Controller {
 	private Coach myCoach;// = new Test(); the interface can inizializate class that implements it
 	
 	@Autowired
-	public Controller(Coach theCoach) {
+	public Controller(@Qualifier("baseballCoach") Coach theCoach) {
 		this.myCoach = theCoach;
 	}
 	
